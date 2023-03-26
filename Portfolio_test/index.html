@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts/googleapis.com/css2?family=Josepfin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -11,55 +14,82 @@
     <img class="logo" src="..." alt="logo"/>
     <nav>
       <ul class="nav__links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul> 
     </nav>   
     <a class="cta" href="#"><button>Download CV</button></a>
   </header>
 
-
   <main>
-    <!--Section 1 - Intro-->
-    <section class="intro">
-      <h1>Hi, My name is Craig</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio fugit maiores vel nostrum exercitationem dignissimos nemo similique iste reiciendis iure asperiores in tenetur odio nisi, deleniti, officia et saepe at tempore? Labore architecto enim expedita nemo aspernatur laboriosam magni odit sed, dolores possimus id libero quidem adipisci quas velit. Laboriosam.</p>
+    <!--Section 1 - Content-->
+    <section class="intro" id="intro">
+      <div class="content">
+        <h4>Hi, My name is </h4>
+        <h1>Craig Chinembiri</h1>
+        <h3>I am a Web Developer</h3>
+      </div>
     </section>
-    
-    <!--Section 2 - Projects-->
-    <section class="features">
-      <div class="feature">
-        <img src="images/Sunflower.jpg" class="feature img"/>
-        <h3>Project 1</h3>
-        <p>Description of project 1</p>
-        <a href="#">View Project</a>
-      </div>
-      
-      <div class="feature">
-        <img src="images/Sunflower.jpg" class="feature img"/>
-        <h3>Project 2</h3>
-        <p>Description of project 2</p>
-        <a href="#">View Project</a>
-      </div>
-      
-      <div class="feature">
-        <img src="images/Sunflower.jpg" class="feature img">
-        <h3>Project 3</h3>
-        <p>Description of project 3</p>
-        <a href="#">View Project</a>
+
+    <!--Section 2 - About-->
+    <section class="about" id="about">
+      <div class="main">
+        <img src="images/Sunflower.jpg" alt="feature img"/>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h5>Web Developer & Digital Artist</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio fugit maiores vel nostrum exercitationem dignissimos nemo similique iste reiciendis iure asperiores in tenetur odio nisi, deleniti, officia et saepe at tempore? Labore architecto enim expedita nemo aspernatur laboriosam magni odit sed, dolores possimus id libero quidem adipisci quas velit. Laboriosam.</p>
+          <button type="button">Get in Contact</button>
+        </div>
       </div>
     </section>
     
-    <!--Section 3 - Skills-->
-    <section class="skills">
-      <h2>My Skills</h2>   
+    <!--Section 3 - Projects-->
+    <section class="projects" id="projects">
+      <div class="title">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <i class="fas fa-bars"></i>
+          <h5>Web Development</h5>
+          <div class="proj">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio fugit maiores vel nostrum exercitationem dignissimos nemo similique.</p>
+
+            <p style="text-align: center;">
+              <a class="button" href="#">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fas fa-user"></i>
+          <h5>Web Development</h5>
+          <div class="proj">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio fugit maiores vel nostrum exercitationem dignissimos nemo similique.</p>
+            <p style="text-align: center;">
+              <a class="button" href="#">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fas fa-bell"></i>
+          <h5>Web Development</h5>
+          <div class="proj">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio fugit maiores vel nostrum exercitationem dignissimos nemo similique.</p>
+
+            <p style="text-align: center;">
+              <a class="button" href="#">Read More</a>
+          </div>
+        </div>
+      
+      </div>
     </section>
+    
+    <!--Contact-->
+    <section class="contact" id="contact">
+      <p>Get intouch with me!</p>
+      <a class="button-two" href="#">Hire Me</a> 
   </main>
-  
-  <footer>
-    <p>Lorem ipsum dolor sit amet.</p>
-  </footer>
 </body>
-</html>
+</html>w
